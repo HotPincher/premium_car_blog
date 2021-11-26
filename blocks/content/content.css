@@ -1,0 +1,14 @@
+.content {
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 514px;
+  grid-template-rows: 850px 1fr 800px;
+  grid-template-areas:
+    "recent-posts recent-posts"
+    "articles side-cards"
+    "posts posts";
+  box-sizing: content-box;
+  justify-items: initial;
+  /* gap: 30px; */
+}

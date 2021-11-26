@@ -1,0 +1,10 @@
+.logo_place_header {
+  border: red solid 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo_place_header p {
+  color: currentColor;
+  margin: 2px;
+}

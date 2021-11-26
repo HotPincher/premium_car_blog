@@ -1,0 +1,8 @@
+
+.articles {
+  border: 1px solid red;
+  grid-area: articles;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}

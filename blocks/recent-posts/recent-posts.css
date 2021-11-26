@@ -1,0 +1,11 @@
+.recent-posts {
+  width: auto;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-rows: repeat(2, 265px);
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px;
+  grid-area: recent-posts;
+}

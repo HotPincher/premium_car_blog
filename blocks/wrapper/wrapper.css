@@ -1,0 +1,11 @@
+.wrapper {
+  min-height: 100%;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0;
+  border: black 2px solid;
+  display: grid;
+  grid-template: minmax(100px, auto) 1fr minmax(100px, auto) / 1fr;
+  justify-content: center;
+}

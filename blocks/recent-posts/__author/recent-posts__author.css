@@ -1,0 +1,14 @@
+.recent-posts__author {
+  position: absolute;
+  bottom: 100px;
+  margin: 0;
+  left: 20px;
+  color: currentColor;
+  border: red solid 1px;
+  width: 70%;
+  z-index: 3;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+}

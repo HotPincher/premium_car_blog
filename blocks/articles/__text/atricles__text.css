@@ -1,0 +1,11 @@
+.articles__text {
+  width: 615px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #171717;
+  border: solid red 1px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
