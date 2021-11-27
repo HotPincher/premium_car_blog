@@ -78,9 +78,29 @@
 
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer-addendum/footer-addendum.css);
+
+/* nav */
 @import url(../blocks/footer/__nav/footer__nav.css);
+
+/* copyright */
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
+/* description */
+@import url(../blocks/description/description.css);
+
+/* posts */
+@import url(../blocks/posts/posts.css);
+@import url(../blocks/posts/__title/posts__title.css);
+@import url(../blocks/posts/__item/posts__item.css);
+@import url(../blocks/posts/__image/posts__image.css);
+@import url(../blocks/posts/__author/posts__author.css);
+@import url(../blocks/posts/__header/posts__header.css);
+
+/* newsletter-subscription */
+@import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__input-field/newsletter__input-field.css);
+@import url(../blocks/newsletter/__confirm-button/newsletter__confirm-button.css);
 
 
 

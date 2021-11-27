@@ -1,7 +1,5 @@
 .logo_place_header {
-  border: red solid 1px;
-  display: flex;
-  flex-direction: row;
+  background-color: #4a90e2;
 }
 
 .logo_place_header p {

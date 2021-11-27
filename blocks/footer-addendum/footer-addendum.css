@@ -1,0 +1,10 @@
+.footer-addendum {
+  border: red solid 1px;
+  margin: 0;
+  padding-top: 62px;
+  padding-bottom: 49px;
+  padding-left: 375px;
+  display: grid;
+  grid-template-columns: 270px 295px 270px;
+  column-gap: 25px;
+}

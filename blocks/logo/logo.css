@@ -1,8 +1,9 @@
 .logo {
-  background-color: #4a90e2;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 17px;
   width: 29px;
-  /* left: 441px;
-  top: 37px; */
+  grid-row-start: 1;
+  grid-column-start: 1;
 }

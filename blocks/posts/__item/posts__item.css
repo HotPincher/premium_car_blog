@@ -1,0 +1,8 @@
+.posts__item {
+  border: red solid 1px;
+  width: 290px;
+  display: grid;
+  grid-template-columns: 95px auto;
+  column-gap: 20px;
+}
+
