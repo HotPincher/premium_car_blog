@@ -1,0 +1,6 @@
+.cards_type_horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}

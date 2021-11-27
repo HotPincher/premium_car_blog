@@ -1,5 +1,5 @@
 .recent-posts {
-  width: auto;
+  width: 100%;
   margin: 0;
   display: grid;
   justify-content: center;
@@ -8,4 +8,5 @@
   grid-template-columns: repeat(3, 370px);
   gap: 30px;
   grid-area: recent-posts;
+  box-sizing: border-box;
 }

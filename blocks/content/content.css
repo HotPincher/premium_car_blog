@@ -1,14 +1,14 @@
 .content {
   margin: 0 auto;
-  width: 90%;
   display: grid;
-  grid-template-columns: 1fr 514px;
-  grid-template-rows: 850px 1fr 800px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr auto;
   grid-template-areas:
     "recent-posts recent-posts"
-    "articles side-cards"
-    "posts posts";
+    "articles sidebar"
+    "most-popular most-popular";
   box-sizing: content-box;
-  justify-items: initial;
-  /* gap: 30px; */
+  justify-items: space-between;
+  column-gap: auto;
+  row-gap: 30px;
 }

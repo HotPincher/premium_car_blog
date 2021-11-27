@@ -1,0 +1,5 @@
+.cards_type_vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
