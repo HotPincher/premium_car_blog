@@ -1,0 +1,6 @@
+.social__icon_offset_middle-left {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}

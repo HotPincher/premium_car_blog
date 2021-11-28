@@ -5,6 +5,8 @@
 /* logo */
 
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__car/logo__car.css);
+@import url(../blocks/logo/__premium/logo__premium.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
@@ -89,6 +91,17 @@
 /* description */
 @import url(../blocks/description/description.css);
 
+/* social */
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__title/social__title.css);
+@import url(../blocks/social/__links/social__links.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__icon/social__icon.css);
+@import url(../blocks/social/__icon/_offset/social__icon_offset_top-right.css);
+@import url(../blocks/social/__icon/_offset/social__icon_offset_middle-right.css);
+@import url(../blocks/social/__icon/_offset/social__icon_offset_middle-left.css);
+
 /* posts */
 @import url(../blocks/posts/posts.css);
 @import url(../blocks/posts/__title/posts__title.css);
@@ -99,6 +112,7 @@
 
 /* newsletter-subscription */
 @import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__title/newsletter__title.css);
 @import url(../blocks/newsletter/__input-field/newsletter__input-field.css);
 @import url(../blocks/newsletter/__confirm-button/newsletter__confirm-button.css);
 

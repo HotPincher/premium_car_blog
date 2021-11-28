@@ -1,9 +1,9 @@
 .logo {
+  width: 100px;
+  height: 23px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 17px;
-  width: 29px;
-  grid-row-start: 1;
-  grid-column-start: 1;
+  justify-content: start;
+  align-items: start;
+  gap: 5px;
 }

@@ -1,6 +1,4 @@
 .logo_place_footer {
-  flex-direction: row;
-  background-color: #4a90e2;
-  text-transform: uppercase;
-
+  grid-row-start: 1;
+  grid-column-start: 1;
 }

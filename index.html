@@ -13,8 +13,10 @@
   <page class="wrapper">
     <header class="header">
       <div class="logo">
-        <img src="./images/Premium.svg" alt="Premium Logo">
-        <p class="logo_place_header">car</p>
+        <div class="logo__premium"><img src="./images/Premium.svg" alt="Premium Logo"></div>
+        <div class="logo__car">
+          <p>car</p>
+        </div>
       </div>
       <ul class="navigation header__menu">
         <li class="menu-item header__menu-item">
@@ -184,9 +186,9 @@
             </div>
           </div>
         </div>
-        <!-- <img src="./images/instagram widget.png" alt="instagram">
+        <!-- <iframe src="https://about.instagram.com" width="270px"> -->
         <img src="./images/tags widget.png" alt="tags widget">
-        <img src="./images/newsletter.png" alt="newsletter"> -->
+        <img src="./images/newsletter.png" alt="newsletter">
       </aside>
       <section class="most-popular">
         <h3 class="most-popular__title">Most popular</h3>
@@ -221,18 +223,24 @@
     <footer class="footer">
       <div class="footer-addendum">
         <div class="logo logo_place_footer">
-          <p>Premium CAR</p>
-          <!-- <p> car</p> -->
+          <div class="logo__premium">
+            <p>Premium</p>
+          </div>
+          <div class="logo__car">
+            <p>car</p>
+          </div>
         </div>
         <p class="description">Short description about the company Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry.</p>
+          printing and typesetting industry.</p>
         <div class="social">
-          <h3 class="social__heading"></h3>
-          <a class="social__link" href="#"><img src="" alt=""></a>
-          <a class="social__link" href="#"><img src="" alt=""></a>
-          <a class="social__link" href="#"><img src="" alt=""></a>
-          <a class="social__link" href="#"><img src="" alt=""></a>
-          <a class="social__link" href="#"><img src="" alt=""></a>
+          <h3 class="social__title">Keep in touch</h3>
+          <ul class="social__links">
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/facebook.png" alt="facebook logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/twitter.png" alt="twitter logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/pinterest.png" alt="pinterest logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon_offset_middle-left" src="./images/google.png" alt="google logo"><img class="social__icon_offset_middle-right" src="./images/google_plus.png" alt="google plus logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/insta_outer.png" alt="instagram outer shape"><img class="social__icon" src="./images/insta_inner.png" alt=""><img class="social__icon_offset_top-right" src="./images/insta_dot.png" alt="instagram dot"></a></li>
+          </ul>
         </div>
         <div class="posts">
           <h2 class="posts__title">Recent posts</h2>
@@ -254,8 +262,8 @@
         </div>
         <div class="newsletter">
           <h2 class="newsletter__title">Newsletter</h2>
-          <input class="newsletter__input-field" type="text" placeholder="Please put your name...">
-          <input class="newsletter__input-field" type="email" placeholder="Please put your e-mail...">
+          <input class="newsletter__input-field" type="text" placeholder="Your name...">
+          <input class="newsletter__input-field" type="email" placeholder="Your email address">
           <button class="newsletter__confirm-button">Subscribe to newsletter</button>
         </div>
       </div>

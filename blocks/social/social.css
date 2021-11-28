@@ -1,0 +1,10 @@
+.social {
+  width: 230px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  margin-top: 243px;
+}
