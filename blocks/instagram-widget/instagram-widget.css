@@ -1,0 +1,6 @@
+.instagram-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 60px;
+}

@@ -1,0 +1,13 @@
+.tags__title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #171717;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}

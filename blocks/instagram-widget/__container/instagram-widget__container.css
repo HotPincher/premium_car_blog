@@ -1,0 +1,8 @@
+.instagram-widget__container {
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: repeat(3, 130px);
+  gap: 10px;
+  margin-bottom: 10px;
+
+}

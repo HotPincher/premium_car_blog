@@ -1,0 +1,21 @@
+.tags__item {
+  height: 30px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: #171717;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.tags__item p {
+  margin: 3px;
+}

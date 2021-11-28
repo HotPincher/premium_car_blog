@@ -1,0 +1,6 @@
+.instagram-widget__icon_offset_top-right {
+  position: absolute;
+  top: 33%;
+  left: 63%;
+  transform: translate(-63%, -33%);
+}

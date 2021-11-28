@@ -1,0 +1,10 @@
+.tags {
+  display: flex;
+  padding-top: 60px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
