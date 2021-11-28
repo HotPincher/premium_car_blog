@@ -10,4 +10,12 @@
   list-style-type: none;
   padding-left: 0;
   position: relative;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+
+.social__link:hover {
+  background-color: #4a90e2;
 }

@@ -2,5 +2,12 @@
   
   background-color: #373737;
   color: #fff;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
 
+
+.newsletter__confirm-button:hover{
+  background-color: #4a90e2;
 }

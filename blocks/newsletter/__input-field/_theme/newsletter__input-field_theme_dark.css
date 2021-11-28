@@ -1,6 +1,13 @@
 .newsletter__input-field_theme_dark {
-  background-color: #373737;
+  background-color: #4a90e2;
   border-style: none;
   box-sizing: border-box;
-  color: #AEB3BB;
+  color: #fff;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.newsletter__input-field_theme_dark:placeholder-shown {
+  background-color: #373737;
 }

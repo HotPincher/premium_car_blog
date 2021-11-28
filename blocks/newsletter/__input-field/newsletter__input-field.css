@@ -1,14 +1,21 @@
 .newsletter__input-field {
   height: 50px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: #4a90e2;
   font-family: PT Sans;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 18px;
   line-height: 18px;
-  color: #aeb3bb;
+  color: #fff;
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   border-radius: 3px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.newsletter__input-field:placeholder-shown {
+  background-color: #fff;
 }

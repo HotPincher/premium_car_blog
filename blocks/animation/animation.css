@@ -1,0 +1,11 @@
+.animation {
+  transition-property: box-shadow;
+  transition-timing-function: linear;
+  transition-duration: .3s;
+
+}
+
+
+.animation:hover {
+  box-shadow: 5px 5px 12px 1px #4a90e2;
+}

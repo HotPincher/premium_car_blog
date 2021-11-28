@@ -11,4 +11,11 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.about__button:hover{
+  background-color: #4a90e2;
 }

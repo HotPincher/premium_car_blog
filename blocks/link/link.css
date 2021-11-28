@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: #fff;
+  transition: translate;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
+}
+
+.link:hover {
+  color: #4a90e2;
+}

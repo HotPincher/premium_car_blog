@@ -1,7 +1,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 
-/* common clock "wrapper" */
+/* common block "wrapper" */
 @import url(../blocks/wrapper/wrapper.css);
 
 /* logo */
@@ -17,7 +17,6 @@
 @import url(../blocks/header/__columns/header__columns.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
-@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__search/header__search.css);
 
 /* main-content */
@@ -77,6 +76,13 @@
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__author/cards__author.css);
+
+/* link */
+@import url(../blocks/link/link.css);
+
+/* animation */
+
+@import url(../blocks/animation/animation.css);
 
 /* instagram-widget */
 
