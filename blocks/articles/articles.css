@@ -1,6 +1,4 @@
-
 .articles {
-  border: 1px solid red;
   width: 770px;
   padding-bottom: 200px;
   grid-area: articles;

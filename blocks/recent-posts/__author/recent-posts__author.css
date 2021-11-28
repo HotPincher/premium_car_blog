@@ -2,13 +2,12 @@
   position: absolute;
   bottom: 100px;
   margin: 0;
+  margin-bottom: 6px;
   left: 20px;
-  color: currentColor;
-  border: red solid 1px;
-  width: 70%;
   z-index: 3;
-  font-size: 14px;
-  font-weight: 400;
+  font-family: PT Sans;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   line-height: 18px;
 }

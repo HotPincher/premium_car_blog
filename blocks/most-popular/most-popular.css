@@ -1,9 +1,8 @@
 .most-popular {
   display: flex;
-  /* margin-top: 400px; */
+  padding-top: 80px;
   flex-direction: column;
   justify-content: flex-start;
   gap: 30px;
-  border: red solid 1px;
   grid-area: most-popular;
 }

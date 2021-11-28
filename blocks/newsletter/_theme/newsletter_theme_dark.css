@@ -1,0 +1,11 @@
+.newsletter_theme_dark {
+  width: 270px;
+  display: grid;
+  grid-template-rows: 100px 50px 50px 50px;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-top: 0;
+}

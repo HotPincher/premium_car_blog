@@ -1,3 +1,5 @@
+@import url(../vendor/fonts/fonts.css);
+
 
 /* common clock "wrapper" */
 @import url(../blocks/wrapper/wrapper.css);
@@ -51,15 +53,16 @@
 /* about */
 
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/__item/about__item.css);
 @import url(../blocks/about/__image/about__image.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__button/about__button.css);
 
 /* popular */
 
 @import url(../blocks/popular/popular.css);
+@import url(../blocks/popular/__title/popular__title.css);
 
 /* cards */
 
@@ -112,9 +115,13 @@
 
 /* newsletter-subscription */
 @import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/_theme/newsletter_theme_dark.css);
 @import url(../blocks/newsletter/__title/newsletter__title.css);
+@import url(../blocks/newsletter/__title/_theme_dark/newsletter__title_theme_dark.css);
 @import url(../blocks/newsletter/__input-field/newsletter__input-field.css);
+@import url(../blocks/newsletter/__input-field/_theme/newsletter__input-field_theme_dark.css);
 @import url(../blocks/newsletter/__confirm-button/newsletter__confirm-button.css);
+@import url(../blocks/newsletter/__confirm-button/_theme/newsletter__confirm_button_theme_dark.css);
 
 
 

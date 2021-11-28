@@ -142,26 +142,24 @@
           </div>
         </div>
         <div class="pagination">
-          <button class="pagination__icon">
-            <p>&LeftAngleBracket;</p>
+          <button class="pagination__icon"><p><img src="./images/chevron left.png" alt="previous search"></p>
           </button>
           <button class="pagination__icon">1</button>
           <button class="pagination__icon">2</button>
           <button class="pagination__icon">3</button>
           <button class="pagination__icon">...</button>
           <button class="pagination__icon">8</button>
-          <button class="pagination__icon">&RightAngleBracket;</button>
+          <button class="pagination__icon"><img src="./images/chevron_right.png" alt="next search"></button>
         </div>
       </section>
       <aside class="sidebar">
         <div class="about">
-          <div class="about__item">
-            <img class="about__image" src="./images/leon_hunt.png" alt="Author's picture">
-            <h3 class="about__title">Leon Hunt</h3>
-            <p class="about__subtitle">Food & cooking bloger</p>
-            <p class="about__content">Hi, I'm Leon. Cooking is the way I express my creative side to the world. Welcome
-              to my Kitchen Corner on…</p>
-          </div>
+          <img class="about__image" src="./images/leon_hunt.png" alt="Author's picture">
+          <h3 class="about__title">Leon Hunt</h3>
+          <p class="about__subtitle">Food & cooking bloger</p>
+          <p class="about__content">Hi, I'm Leon. Cooking is the way I express my creative side to the world. Welcome
+            to my Kitchen Corner on…</p>
+          <button class="about__button">Continue reading</button>
         </div>
         <div class="popular">
           <h3 class="popular__title">Popular</h3>
@@ -186,9 +184,14 @@
             </div>
           </div>
         </div>
-        <!-- <iframe src="https://about.instagram.com" width="270px"> -->
         <img src="./images/tags widget.png" alt="tags widget">
-        <img src="./images/newsletter.png" alt="newsletter">
+        <div class="newsletter">
+          <h2 class="newsletter__title">Newsletter</h2>
+          <input class="newsletter__input-field" type="text" placeholder="Your name...">
+          <input class="newsletter__input-field" type="email" placeholder="Your email address">
+          <button class="newsletter__confirm-button">Subscribe to newsletter</button>
+        </div>
+        <!-- <iframe src="https://about.instagram.com" width="270px"> -->
       </aside>
       <section class="most-popular">
         <h3 class="most-popular__title">Most popular</h3>
@@ -235,11 +238,19 @@
         <div class="social">
           <h3 class="social__title">Keep in touch</h3>
           <ul class="social__links">
-            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/facebook.png" alt="facebook logo"></a></li>
-            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/twitter.png" alt="twitter logo"></a></li>
-            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/pinterest.png" alt="pinterest logo"></a></li>
-            <li><a target="_blank" class="social__link" href="#"><img class="social__icon_offset_middle-left" src="./images/google.png" alt="google logo"><img class="social__icon_offset_middle-right" src="./images/google_plus.png" alt="google plus logo"></a></li>
-            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/insta_outer.png" alt="instagram outer shape"><img class="social__icon" src="./images/insta_inner.png" alt=""><img class="social__icon_offset_top-right" src="./images/insta_dot.png" alt="instagram dot"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/facebook.png"
+                  alt="facebook logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/twitter.png"
+                  alt="twitter logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon" src="./images/pinterest.png"
+                  alt="pinterest logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon_offset_middle-left"
+                  src="./images/google.png" alt="google logo"><img class="social__icon_offset_middle-right"
+                  src="./images/google_plus.png" alt="google plus logo"></a></li>
+            <li><a target="_blank" class="social__link" href="#"><img class="social__icon"
+                  src="./images/insta_outer.png" alt="instagram outer shape"><img class="social__icon"
+                  src="./images/insta_inner.png" alt=""><img class="social__icon_offset_top-right"
+                  src="./images/insta_dot.png" alt="instagram dot"></a></li>
           </ul>
         </div>
         <div class="posts">
@@ -260,11 +271,11 @@
             <p class="posts__author">Rickie Baroch - June 6, 2019</p>
           </div>
         </div>
-        <div class="newsletter">
-          <h2 class="newsletter__title">Newsletter</h2>
-          <input class="newsletter__input-field" type="text" placeholder="Your name...">
-          <input class="newsletter__input-field" type="email" placeholder="Your email address">
-          <button class="newsletter__confirm-button">Subscribe to newsletter</button>
+        <div class="newsletter newsletter_theme_dark">
+          <h2 class="newsletter__title newsletter__title_theme_dark">Newsletter</h2>
+          <input class="newsletter__input-field newsletter__input-field_theme_dark" type="text" placeholder="Your name...">
+          <input class="newsletter__input-field newsletter__input-field_theme_dark" type="email" placeholder="Your email address">
+          <button class="newsletter__confirm-button newsletter__confirm-button_theme_dark">Subscribe to newsletter</button>
         </div>
       </div>
       <p class="footer__copyright">&copy; Logwork. All Rights Reserved.</p>
