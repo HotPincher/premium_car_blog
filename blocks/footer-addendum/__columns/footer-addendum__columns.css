@@ -1,0 +1,8 @@
+.footer-addendum__columns {
+  width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 270px 295px 270px;
+  column-gap: 125px;
+  margin: 0 auto;
+}

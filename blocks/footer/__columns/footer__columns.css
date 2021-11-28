@@ -1,0 +1,7 @@
+.footer__columns {
+  min-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

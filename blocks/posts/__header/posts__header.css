@@ -1,10 +1,12 @@
 .posts__header {
   width: 178px;
   height: 49px;
-  font-size: 15px;
-  font-weight: 700;
+  font-family: PT Sans;
   font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
   line-height: 26px;
+  color: #FFFFFF;
   margin-block-start: 4px;
   margin-block-end: 0;
   margin: 0;

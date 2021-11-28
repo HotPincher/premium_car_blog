@@ -12,30 +12,32 @@
 <body>
   <page class="wrapper">
     <header class="header">
-      <div class="logo">
-        <div class="logo__premium"><img src="./images/Premium.svg" alt="Premium Logo"></div>
-        <div class="logo__car">
-          <p>car</p>
+      <div class="header__columns">
+        <div class="logo">
+          <div class="logo__premium"><img src="./images/Premium.svg" alt="Premium Logo"></div>
+          <div class="logo__car">
+            <p>car</p>
+          </div>
         </div>
+        <ul class="header__nav">
+          <li class="menu-item header__menu-item">
+            <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Home</a>
+          </li>
+          <li class="menu-item header__menu-item">
+            <a class="menu-item link header__link" href="#" target="_blank" rel="noopener noreferrer">Article</a>
+          </li>
+          <li class="menu-item header__menu-item">
+            <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Recipes</a>
+          </li>
+          <li class="menu-item header__menu-item">
+            <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+          </li>
+          <li class="menu-item header__menu-item">
+            <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Purchase</a>
+          </li>
+        </ul>
+        <img class="header__search" src="./images/Shape.png" alt="Search icon">
       </div>
-      <ul class="navigation header__menu">
-        <li class="menu-item header__menu-item">
-          <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Home</a>
-        </li>
-        <li class="menu-item header__menu-item">
-          <a class="menu-item link header__link" href="#" target="_blank" rel="noopener noreferrer">Article</a>
-        </li>
-        <li class="menu-item header__menu-item">
-          <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Recipes</a>
-        </li>
-        <li class="menu-item header__menu-item">
-          <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Contact</a>
-        </li>
-        <li class="menu-item header__menu-item">
-          <a class="link header__link" href="#" target="_blank" rel="noopener noreferrer">Purchase</a>
-        </li>
-      </ul>
-      <img class="header__search" src="./images/Shape.png" alt="Search icon">
     </header>
     <main class="content">
       <section class="recent-posts">
@@ -142,7 +144,8 @@
           </div>
         </div>
         <div class="pagination">
-          <button class="pagination__icon"><p><img src="./images/chevron left.png" alt="previous search"></p>
+          <button class="pagination__icon">
+            <p><img src="./images/chevron left.png" alt="previous search"></p>
           </button>
           <button class="pagination__icon">1</button>
           <button class="pagination__icon">2</button>
@@ -223,8 +226,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-addendum">
+    <div class="footer-addendum">
+      <div class="footer-addendum__columns">
         <div class="logo logo_place_footer">
           <div class="logo__premium">
             <p>Premium</p>
@@ -273,29 +276,36 @@
         </div>
         <div class="newsletter newsletter_theme_dark">
           <h2 class="newsletter__title newsletter__title_theme_dark">Newsletter</h2>
-          <input class="newsletter__input-field newsletter__input-field_theme_dark" type="text" placeholder="Your name...">
-          <input class="newsletter__input-field newsletter__input-field_theme_dark" type="email" placeholder="Your email address">
-          <button class="newsletter__confirm-button newsletter__confirm-button_theme_dark">Subscribe to newsletter</button>
+          <input class="newsletter__input-field newsletter__input-field_theme_dark" type="text"
+            placeholder="Your name...">
+          <input class="newsletter__input-field newsletter__input-field_theme_dark" type="email"
+            placeholder="Your email address">
+          <button class="newsletter__confirm-button newsletter__confirm-button_theme_dark">Subscribe to
+            newsletter</button>
         </div>
       </div>
-      <p class="footer__copyright">&copy; Logwork. All Rights Reserved.</p>
-      <ul class="nav footer__nav">
-        <li class="list-item footer__list-item">
-          <a class="link" href="#" target="_blank" rel="noopener noreferrer">Home</a>
-        </li>
-        <li class="list-item footer__list-item">
-          <a class="link" href="#" target="_blank" rel="noopener noreferrer">Article</a>
-        </li>
-        <li class="list-item footer__list-item">
-          <a class="link" href="#" target="_blank" rel="noopener noreferrer">Recipes</a>
-        </li>
-        <li class="list-item footer__list-item">
-          <a class="link" href="#" target="_blank" rel="noopener noreferrer">Contact</a>
-        </li>
-        <li class="list-item footer__list-item">
-          <a class="link" href="#" target="_blank" rel="noopener noreferrer">Purchase</a>
-        </li>
-      </ul>
+    </div>
+    <footer class="footer">
+      <div class="footer__columns">
+        <p class="footer__copyright">&copy; Logwork. All Rights Reserved.</p>
+        <ul class="nav footer__nav">
+          <li class="list-item footer__list-item">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer">Home</a>
+          </li>
+          <li class="list-item footer__list-item">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer">Article</a>
+          </li>
+          <li class="list-item footer__list-item">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer">Recipes</a>
+          </li>
+          <li class="list-item footer__list-item">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+          </li>
+          <li class="list-item footer__list-item">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer">Purchase</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </page>
 </body>

@@ -4,5 +4,5 @@
   margin: 0 auto;
   border: black 2px solid;
   display: grid;
-  grid-template: minmax(200px, auto) 1fr minmax(200px, auto) / 1fr;
+  grid-template: minmax(100px, auto) 1fr minmax(500px, auto) minmax(95px, auto) / 1fr;
 }

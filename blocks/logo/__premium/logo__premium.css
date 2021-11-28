@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
+  font-family: PT Sans;
   font-style: normal;
-  line-height: 17px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
 }
 
 .logo__premium p {
